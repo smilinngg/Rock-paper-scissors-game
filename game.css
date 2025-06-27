@@ -67,3 +67,39 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media (min-width: 218px) and (max-width: 450px)  {
+    img{
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+    } 
+
+    .choice{
+        height: 90px;
+        width: 90px;
+    }
+
+    .choices{
+        gap: 1rem;
+    }
+
+    h1{
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.7rem;
+    }
+
+    .score_board{
+        gap: 4rem;
+        font-size: 1.7rem;
+    }
+
+    #user_score, #comp_score{
+        font-size: 3.3rem;
+    }
+
+    #msg{
+        font-size: 1.3rem;
+    }
+}
